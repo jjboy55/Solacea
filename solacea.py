@@ -1,12 +1,25 @@
 import streamlit as st
-import sys
+
 import asyncio
 from controller.msftgraphrag import RGlobalSearch
 
-video_path = "videos/msftgraphrag3d.mov"
 
-st.video(video_path)
-st.caption("MsftGraphRag Visualisation using noworneverev")
+st.title("🏥 Colon Cancer Decision Support System")
+with st.sidebar:
+    st.image("videos/Blue Modern Project Presentation.png")
+    st.markdown("## Here are some questions to ask me 🩺 ##")
+
+    questions = [
+        "How does **ctDNA positivity** after surgery affect treatment decisions in **Stage III** cancer patients?",
+        "What is the significance of being **ctDNA positive** for a **Stage III** cancer patient post-surgery?",
+        "What role does **ctDNA** play in determining the need for **adjuvant chemotherapy** in cancer treatment?",
+        "What are the implications of **ctDNA detection** after surgery in **Stage III** cancer?",
+        "How does **ctDNA positivity** influence the likelihood of recommending **adjuvant chemotherapy** for **Stage III** patients?",
+    ]
+
+    for question in questions:
+        st.write(f"- {question}")
+
 # Initialize chat history
 if "messages" not in st.session_state:
     st.session_state.messages = []
