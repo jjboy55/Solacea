@@ -22,7 +22,7 @@ Our MVP leverages **Microsoft’s GraphRAG** approach to deliver **targeted, con
 
 
 
-<img src="https://github.com/user-attachments/assets/f9db11c1-dadc-4d6a-9961-64e45e41a910" alt="Image Description">
+<img src="https://github.com/user-attachments/assets/02af1813-e4b1-4949-94ad-ddde9c7184ef" alt="Image Description">
 
 
 
