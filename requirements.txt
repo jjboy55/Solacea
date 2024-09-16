@@ -65,7 +65,7 @@ future==1.0.0
 gensim==4.3.3
 gitdb==4.0.11
 GitPython==3.1.43
-graphrag==0.3.4
+graphrag
 graspologic==3.4.1
 graspologic-native==1.2.1
 greenlet==3.0.3
@@ -187,7 +187,7 @@ spider-client==0.0.27
 SQLAlchemy==2.0.34
 stack-data==0.6.3
 statsmodels==0.14.2
-streamlit==1.38.0
+streamlit
 streamlit-option-menu==0.3.13
 striprtf==0.0.26
 swifter==1.4.0
