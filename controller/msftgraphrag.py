@@ -96,4 +96,3 @@ class RGlobalSearch:
         # Perform the search using the query
         result = await self.search_engine.asearch(query)
         return result.response
-
