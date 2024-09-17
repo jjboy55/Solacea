@@ -1,7 +1,6 @@
-import os
 import pandas as pd
 import tiktoken
-
+import streamlit as st
 from graphrag.query.indexer_adapters import read_indexer_entities, read_indexer_reports
 from graphrag.query.llm.oai.chat_openai import ChatOpenAI
 from graphrag.query.llm.oai.typing import OpenaiApiType
@@ -12,11 +11,12 @@ from graphrag.query.structured_search.global_search.search import GlobalSearch
 
 
 class RGlobalSearch:
+
     def __init__(
         self,
         input_dir="~/Developer/VsCode Projects/Solacea/msftgrag/output/20240915-221852/artifacts",
         community_level=2,
-        api_key=os.getenv("OPENAI_API_KEY"),
+        api_key=st.secrets["OPENAI_API_KEY"],
         llm_model="gpt-4o-mini",
     ):
         # Initialize LLM and token encoder
