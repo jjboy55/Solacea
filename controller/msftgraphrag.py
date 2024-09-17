@@ -14,7 +14,7 @@ class RGlobalSearch:
 
     def __init__(
         self,
-        input_dir="~/Developer/VsCode Projects/Solacea/msftgrag/output/20240915-221852/artifacts",
+        input_dir="msftgrag/output/20240915-221852/artifacts",
         community_level=2,
         api_key=st.secrets["OPENAI_API_KEY"],
         llm_model="gpt-4o-mini",
