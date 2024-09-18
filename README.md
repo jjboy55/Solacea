@@ -32,6 +32,10 @@ Our MVP leverages **Microsoft’s GraphRAG** approach to deliver **targeted, con
 3. **Augmentation**: Using a combination of retrieved research and contextual understanding, the system generates a **personalized treatment recommendation**.
 4. **Output**: The doctor receives a tailored recommendation on whether to pursue adjuvant chemotherapy based on the patient’s ctDNA status and the best available clinical evidence.
 
+### Visualised Graph 
+<img width="1440" alt="Screenshot 2024-09-18 at 11 32 28" src="https://github.com/user-attachments/assets/efd05a3e-f0ea-4b75-b0f8-51fc9a3a404f">
+ The graph includes all the communities, text units and entities derived from the data and was visualised using https://noworneverev.github.io/graphrag-visualizer/
+
 ### Example Query
 **Input**:  
 *"A Stage III patient is ctDNA positive post-surgery. What does the research suggest regarding adjuvant chemotherapy?"*
